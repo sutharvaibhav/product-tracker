@@ -9,6 +9,18 @@
     - Display grand total of all products
     - Uses Bootstrap and AJAX for a seamless frontend experience
 
+## Database Configuration
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=product-tracker
+DB_USERNAME=root
+DB_PASSWORD=
+
+*run command in terminal* : php artisan migrate
+and select to create database if not exist
+
 ## Setup Instructions
 
 1. **Clone the repository**
